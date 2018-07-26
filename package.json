@@ -1,0 +1,17 @@
+{
+  "name": "beerjs-valdivia-slides",
+  "version": "0.0.1",
+  "description": "BeerJS Valdivia",
+  "main": "index.js",
+  "scripts": {
+    "start": "cleaver watch index.md --output index.html",
+    "build": "cleaver index.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["beerjs", "beer", "javascript"],
+  "author": "Raul Hernandez <raulghm@gmail.com> (http://raulghm.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "cleaver": "^0.8.7"
+  }
+}
